@@ -12,12 +12,12 @@ $ ssh username@host_address
 Then you will be executing a [shell script](https://github.com/RagingTiger/dokku-ml/blob/master/dokku-ml_setup.sh) to automate everything. If you trust
 the script:
 ```
-$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/RagingTiger/dokku-ml/a4d568773eac6791df568ce2f36aa8812d0df42b/dokku-ml_setup.sh)"
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/RagingTiger/dokku-ml/master/dokku-ml_setup.sh)"
 ```
 
 Else download, read, and then execute:
 ```
-$ curl -fsSL -o /tmp/dokku-ml_setup https://raw.githubusercontent.com/RagingTiger/dokku-ml/a4d568773eac6791df568ce2f36aa8812d0df42b/dokku-ml_setup.sh
+$ curl -fsSL -o /tmp/dokku-ml_setup https://raw.githubusercontent.com/RagingTiger/dokku-ml/master/dokku-ml_setup.sh
 $ bash /tmp/dokku-ml_setup
 ```
 
