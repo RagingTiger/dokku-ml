@@ -1,0 +1,8 @@
+.env
+.projectdir
+.todolist
+.notes/
+*.pyc
+venv/
+bin/
+.DS_Store
