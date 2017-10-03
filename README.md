@@ -17,7 +17,7 @@ $ bash -c "$(curl -fsSL https://raw.githubusercontent.com/RagingTiger/dokku-ml/a
 
 Else download, read, and then execute:
 ```
-$ curl -fsSL -o -o /tmp/dokku-ml_setup https://raw.githubusercontent.com/RagingTiger/dokku-ml/a4d568773eac6791df568ce2f36aa8812d0df42b/dokku-ml_setup.sh
+$ curl -fsSL -o /tmp/dokku-ml_setup https://raw.githubusercontent.com/RagingTiger/dokku-ml/a4d568773eac6791df568ce2f36aa8812d0df42b/dokku-ml_setup.sh
 $ bash /tmp/dokku-ml_setup
 ```
 
