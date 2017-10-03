@@ -11,5 +11,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/RagingTiger/cuda_setup/m
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/RagingTiger/nvidia-docker_setup/master/nvidia-docker_setup.sh)"
 
 # now create dokku app
-dokku apps:create tf-helloworld
-dokku docker-options:add tf-helloworld deploy,run "$(curl localhost:3476/docker/cli)"
+dokku apps:create tf-hello
+dokku docker-options:add tf-hello deploy,run "$(curl localhost:3476/docker/cli)"
