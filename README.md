@@ -39,7 +39,7 @@ $ git clone "https://github.com/RagingTiger/tf-hello" && cd tf-hello
 
 Once in the **tf-hello** directory, you need to setup your **dokku git remote** ssh url:
 ```
-$ git remote add dokku "ssh://dokku@your_dokku_host_address:tf-hello"
+$ git remote add dokku "ssh://dokku@your_dokku_host_address:/tf-hello"
 ```
 **NOTE**: If you changed your default **ssh** port, use this format:
 ```
