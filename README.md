@@ -21,6 +21,12 @@ $ curl -fsSL -o /tmp/dokku-ml_setup https://raw.githubusercontent.com/RagingTige
 $ bash /tmp/dokku-ml_setup
 ```
 
+Once this is complete, open a browser to the address of the **dokku** server,
+where you will need to paste your **ssh** public key (i.e. `id_rsa.pub`) into
+the entry box, give a domain name, and click enter. This will now allow you,
+as the administrator, to push code to **dokku** and have it automatically
+executed.
+
 ### TF-Hello
 After this completes you are going to want to download a "hello world"
 example to your local machine (not your dokku server).
