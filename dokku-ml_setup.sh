@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# guarding against errors
+set -e
+
 # functions
 dokku_install(){
   # the contents of this function are from dokku's own install instructions
