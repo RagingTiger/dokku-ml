@@ -22,8 +22,9 @@ $ bash /tmp/dokku-ml_setup
 ```
 
 Once this is complete, open a browser to the address of the **dokku** server,
-where you will need to paste your **ssh** public key (i.e. `id_rsa.pub`) into
-the entry box, give a domain name, and click enter. This will now allow you,
+where you will need to paste your [
+**ssh public key**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key) 
+(i.e. `id_rsa.pub`) into the entry box, give a domain name, and click enter. This will now allow you,
 as the administrator, to push code to **dokku** and have it automatically
 executed.
 
